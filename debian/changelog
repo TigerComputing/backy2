@@ -1,10 +1,10 @@
-backy2 (2.15.0) UNRELEASED; urgency=medium
+backy2 (2.15.0) unstable; urgency=medium
 
   * backy2.config: replace deprecated/removed configparser usage
   * backy2.meta_backends.sql_migrations.alembic.env: fix for SQLAlchemy 2.0
   * backy2.io.lib.rados: fix 'is ""' string comparison
 
- -- Chris Boot <crb@tiger-computing.co.uk>  Wed, 06 May 2026 10:57:12 +0200
+ -- Chris Boot <crb@tiger-computing.co.uk>  Wed, 06 May 2026 11:26:53 +0200
 
 backy2 (2.14.0) unstable; urgency=low
 

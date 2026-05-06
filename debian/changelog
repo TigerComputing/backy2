@@ -1,6 +1,7 @@
 backy2 (2.15.0) UNRELEASED; urgency=medium
 
   * backy2.config: replace deprecated/removed configparser usage
+  * backy2.meta_backends.sql_migrations.alembic.env: fix for SQLAlchemy 2.0
 
  -- Chris Boot <crb@tiger-computing.co.uk>  Wed, 06 May 2026 10:57:12 +0200
 

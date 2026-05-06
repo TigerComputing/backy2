@@ -2271,12 +2271,12 @@ class Object(object):
         self.offset = 0
         self.state = "exists"
         self.locator_key = locator_key
-        self.nspace = "" if nspace is None else nspace
+        self.nspace = nspace or ""
 
     def __str__(self):
         return "rados.Object(ioctx=%s,key=%s,nspace=%s,locator=%s)" % \
-            (str(self.ioctx), self.key, "--default--"
-             if self.nspace is "" else self.nspace, self.locator_key)
+            (str(self.ioctx), self.key, self.nspace or "--default--",
+             self.locator_key)
 
     def require_object_exists(self):
         if self.state != "exists":

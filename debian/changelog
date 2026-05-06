@@ -1,3 +1,9 @@
+backy2 (2.15.0) UNRELEASED; urgency=medium
+
+  * backy2.config: replace deprecated/removed configparser usage
+
+ -- Chris Boot <crb@tiger-computing.co.uk>  Wed, 06 May 2026 10:57:12 +0200
+
 backy2 (2.14.0) unstable; urgency=low
 
   * New release formalising TCL fork.
